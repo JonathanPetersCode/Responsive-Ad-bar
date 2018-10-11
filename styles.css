@@ -1,0 +1,31 @@
+body{
+  background-color: #b1b1cd;
+}
+.container{
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  font-weight: bold;
+}
+
+.box{
+  background-color: #1a8cff;
+  flex: 1 1 200px;
+  padding: 80px 60px;
+  margin: auto;
+  border: solid #ffccff;
+}
+.box:hover{
+  background-color: #ffcccc;
+  color: #1a8cff;
+}
+
+.middle{
+  background-color: #99ccff;
+  padding: 80px 60px;
+}
+
+.middle:hover{
+  background-color: #ff99dd;
+}
